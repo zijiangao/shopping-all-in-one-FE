@@ -20,9 +20,10 @@ class ProductCard extends React.Component {
             target="_blank"
             href={this.props.productUrl}
             className="product-card"
+            rel="noreferrer"
           >
             <div className="img-container">
-              <img className="img-fluid" src={this.props.image} />
+              <img className="img-fluid" src={this.props.image} alt="" />
             </div>
             <div className="card-text">
               <h5 className="card-title">{this.props.name}</h5>

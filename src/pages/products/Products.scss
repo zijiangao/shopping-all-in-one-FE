@@ -44,3 +44,17 @@ div.scrollmenu {
     transform: rotate(360deg);
   }
 }
+.dropdown-item {
+  margin-left: 0;
+}
+.dropdown {
+  text-align: left;
+  display: inline-block;
+}
+.dropdownHeading {
+  display: inline-block;
+  margin-right: 10px;
+}
+.dropdownContainer {
+  text-align: left;
+}
